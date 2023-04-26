@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+ <html>
+     <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="./Assets/css/style.css">
+         <title>JavaScript Fundamentals Quiz</title>
+     </head>
+     <body>
+         <div class="abs-max-height">
+            <!-- timer & highscores -->
+            <div class="top-bar">
+                <div id="top-bar-info">
+                    <button class="red-nav-button">View Highscores</button>
+                    <p>Time: 00</p>
+                </div>
+            </div>
+            <div class="horizontal-center vertical-center rel-max-height">
+                <!-- main intro page -->
+                <header id="intro-screen">
+                    <h1>Coding Quiz Challenge</h1>
+                    <div>
+                        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+                        <button class="start-quiz-button red-nav-button" id="start-quiz-button">Start Quiz</button>
+                    </div>
+                </header>
+                <!-- main quiz content -->
+                <main>
+                    <section aria-labelledby="question-title" id="question-screen" class="question-screen medium-padding">
+                        <h2 id="question-title" class="question-title"></h2>
+                        <ul>
+                            <!-- generation of answer buttons -->
+                        </ul>
+                        <footer id="question-feedback" class="question-feedback">
+                            <p>Wrong!</p>
+                        </footer>
+                    </section>
+
+                    <section aria-labelledby="quiz-complete-title" id="finish-screen" class="finish-screen">
+                        <h2 id="quiz-complete-title">All Done!</h2>
+                        <p>Your final scores is 0.</p>
+                        <div id="score-entry" class="score-entry">
+                            <label for="">Enter initials:</label>
+                            <input type="text" placeholder="Initials Here">
+                            <button class="red-nav-button">Submit</button>
+                        </div>
+                    </section>
+
+                    <section aria-labelledby="highscores-title" id="highscores-screen" class="highscores-screen">
+                        <h2 id="highscores-title">Highscores</h2>
+                        <ol>
+                            <!-- generation of highscore labels -->
+                        </ol>
+                        <button id="go-back-btn">Go back</button>
+                        <button id="clear-scores-btn" class="red-nav-button">Clear scores</button>
+                    </section>
+                </main>
+            </div>
+        </div>
+        <script src="./Assets/js/script.js"></script>
+    </body>
+</html>
