@@ -22,13 +22,11 @@ button:hover {
     cursor: pointer;
     background-color: var(--purple); /* change color */
 }
-main {
-    width: 100%;
-    margin: 0 auto calc(15vh + 50px) auto;
-    padding: 20px;
+.hidden {
+    display: none;
 }
-/* Class Contents */
-.outer-container {
+/* Start Screen */
+.container {
     padding: 10px;
     height: 100vh;
     display: flex;
@@ -57,49 +55,33 @@ main {
     height: 100%;
     align-items: center;
 }
-.inner-container {
+.start-screen {
     height: 100%;
     width: 50%;
-    margin: 0 auto;
-}
-.quiz-intro {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 540px;
-    border-radius: 5px;
+    margin: 150px auto;
 }
 .quiz-intro h1 {
-    height: 60px;
     width: 100%;
     display: flex;
-    align-items: center;
     padding: 0 35px;
     font-size: 35px;
     font-weight: 600;
-    flex-direction: column;
+    justify-content: center;
 }
-.quiz-intro p {
+.start-screen p {
     margin: 10px 0;
     font-size: 17px;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
-.quiz-intro button {
-    font-size: 20px;
-    font-weight: 500;
+.start-screen button {
     outline: none;
     border: 1px;
-    border-radius: 5px;
     background: #673AB7;
     color: white;
     padding: 5px 10px;
     cursor: pointer;
-    align-items: center;
-    position: absolute;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     transition: all 0.3s ease;
-    margin: 20px 0;
+    margin: auto;
 }

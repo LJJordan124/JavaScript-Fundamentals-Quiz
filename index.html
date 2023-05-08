@@ -7,33 +7,36 @@
          <title>JavaScript Fundamentals Quiz</title>
      </head>
      <body>
-        <div class="outer-container">
-            <div class="top-bar">
-                <button>View Highscores</button>
-                <p id="count-down">Time: 00</p>
-            </div>
-            <div class="inner-container">
-                <header class="quiz-intro">
+        <div class="container">
+            <header class="top-bar">
+                <div class="scores-container">
+                    <button>View Highscores</button> <!-- href link of a new html? -->
+                </div>
+                <div class="count-down">
+                    Time: <span id="timer">75</span>
+                </div>
+            </header>
+
+            <div class="start-screen">
+                <div class="quiz-intro">
                     <h1>Coding Quiz Challenge</h1>
-                    <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-                    <button>Start Quiz</button>
-                </header>
-                <!-- <main class="quiz-content">
-                    <div class="buttons">
-                        <button class="btn" id="btn0">
-                            1. <span class="choice0"></span>
-                        </button>
-                        <button class="btn" id="btn1">
-                            2. <span class="choice1"></span>
-                        </button>
-                        <button class="btn" id="btn2">
-                            3. <span class="choice2"></span>
-                        </button>
-                        <button class="btn" id="btn3">
-                            4. <span class="choice3"></span>
-                        </button>
-                    </div>
-                </main> -->
+                </div>
+                <p>Try to answer the following code-related questions within the time <br> limit. Keep in mind that incorrect answers will penalize your score/time <br> by ten seconds!</p>
+                <button>Start Quiz</button>
+            </div>
+
+            <div id="quiz-screen" class="hidden">
+                <div id="question-title"></div>
+                <div id="choices"></div>
+                <div id="result"></div>
+            </div>
+
+            <div id="end-screen" class="hidden">
+                <h2>All Done!</h2>
+                <p>Your final score is <span id="final-score"></span></p>
+                <input type="text" id="initials" placeholder="Enter Initials:">
+                <button id="submit">Submit</button>
+                <div id="initials-error"></div>
             </div>
         </div>
         <script src="./Assets/js/script.js"></script>
