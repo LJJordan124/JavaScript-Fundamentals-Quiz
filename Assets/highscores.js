@@ -1,14 +1,14 @@
-var highscores = JSON.parse(localStorage.getItem('highscores') || '[]');
+var highScores = JSON.parse(localStorage.getItem('highScores') || '[]');
 
-highscores.sort(function(a,b) {
+highScores.sort(function(a, b) {
     return b.score - a.score;
 });
 
-var highscoresList = document.querySelector('ol');
-for (var i = 0; i <highscores.length; i++) {
+var highScoresList = document.querySelector('ol');
+for (var i = 0; i < highScores.length; i++) {
     var li = document.createElement('li');
-    li.textContent = 'Initials: ' + highscores[i].initials + ', Score: ' + highscores[i].score;
-    highscoresList.appendChild(i);
+    li.textContent = 'Initials: ' + highScores[i].initials + ', Score: ' + highScores[i].score;
+    highScoresList.appendChild(li);
 }
 
 var goBackBtn = document.getElementById('go-back');
@@ -17,7 +17,7 @@ goBackBtn.addEventListener('click', function() {
 });
 
 var clearBtn = document.getElementById('clear');
-clearBtn.addEventListener('click', function () {
-    localStorage.removeItem('highscores');
-    highscoresList.innerHTML = '';
+clearBtn.addEventListener('click', function() {
+    localStorage.removeItem('highScores');
+    highScoresList.innerHTML = '';
 });

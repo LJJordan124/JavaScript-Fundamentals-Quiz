@@ -118,8 +118,8 @@ function storeHighScore() {
     highScores.push({ initials: initialsValue, score: scoreValue });
     localStorage.setItem('highScores', JSON.stringify(highScores));
 
-    //* Redirect user to high-scores.html page
-    window.location.href = './assets/high-scores.html';
+    //* Redirect user to highscores.html page
+    window.location.href = './assets/highscores.html';
 }
 
 startBtn.onclick = startQuiz;

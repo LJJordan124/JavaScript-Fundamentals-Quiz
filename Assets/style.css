@@ -26,6 +26,7 @@ button:hover {
 .hidden {
     display: none;
 }
+
 /* Start Screen */
 .container {
     padding: 10px;
@@ -87,6 +88,7 @@ button:hover {
     transition: all 0.3s ease;
     margin: auto;
 }
+
 /* Highscores Screen */
 .highscores {
     display: flex;
@@ -96,7 +98,7 @@ button:hover {
 }
 .highscores ol {
     margin: .5rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 .highscores div {
     margin-left: 8.5rem;
@@ -107,4 +109,39 @@ button:hover {
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     display: inline-block;
+}
+
+/* Questions Screen */
+#question-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+#choices button {
+    margin: 0.5rem;
+}
+#result {
+    border-top: groove;
+    color: gray;
+    padding: 5px;
+}
+
+/* End Screen */
+#end-screen {
+    flex-direction: column;
+    align-items: center;
+}
+#end-screen h2 {
+    padding: 20px 0;
+    font-size: 35px;
+}
+#end-screen p {
+    padding: 10px 0;
+}
+#end-screen button {
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
+#end-screen input {
+    height: 25px;
 }
