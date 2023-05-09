@@ -3,26 +3,26 @@
  <html>
      <head>
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="./Assets/css/style.css">
+         <link rel="stylesheet" href="./Assets/style.css">
          <title>JavaScript Fundamentals Quiz</title>
      </head>
      <body>
         <div class="container">
             <header class="top-bar">
                 <div class="scores-container">
-                    <button>View Highscores</button> <!-- href link of a new html? -->
+                    <a href="./assets/highscores.html" class="scores-link">View Highscores</a>
                 </div>
                 <div class="count-down">
                     Time: <span id="timer">75</span>
                 </div>
             </header>
 
-            <div class="start-screen">
+            <div id="start-screen">
                 <div class="quiz-intro">
                     <h1>Coding Quiz Challenge</h1>
                 </div>
                 <p>Try to answer the following code-related questions within the time <br> limit. Keep in mind that incorrect answers will penalize your score/time <br> by ten seconds!</p>
-                <button>Start Quiz</button>
+                <button id="start-btn">Start Quiz</button>
             </div>
 
             <div id="quiz-screen" class="hidden">
@@ -39,6 +39,6 @@
                 <div id="initials-error"></div>
             </div>
         </div>
-        <script src="./Assets/js/script.js"></script>
+        <script src="./Assets/script.js"></script>
     </body>
 </html>
