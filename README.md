@@ -17,7 +17,3 @@ This project was created and recommended by my Bootcamp, and it was a fun projec
 ## Deployed Application
 
 https://ljjordan124.github.io/JavaScript-Fundamentals-Quiz/
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
