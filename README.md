@@ -1,42 +1,18 @@
-# 04 Web APIs: Code Quiz
+# JavaScript Fundamentals Quiz
 
-## Your Task
+## Description
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+You are introduced to the intro-screen where you can click on two different buttons. You can view the Highscores on the top left, and it will take you to another page that will show your scores and will save those scores even if you exit the page. The other button is the Start Button, it will start the quiz and you will be presented with some JavaScript Funadmental questions. When you start the quiz, the timer on the top right will start counting down. If you wait long enough the quiz will end, however if you finish the quiz you are asked to enter your initials and be presented with an updated Highscores page.
 
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+A big challenge I had and the most difficulty was the JavaScript, however after watching a lot of videos, viewing multiple repositories, I took a lot, and learned how there was so many different ways to create a quiz that used a similar, yet different code. At the end of my journey, I came across another error that I couldn't find a solution to: my index.html couldn't recognize the href link to the highscores.html. This was only for GitHub however, and it worked perfectly fine on VS Code, so I asked a buddy of mine with some assistance in using GitHub the right way.
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+This project was created and recommended by my Bootcamp, and it was a fun project. I especially loved my experience in having multiple pages. I created this project with a means to replicate the example, practicing to create a website based on replicating what the costumer wanted. However I do plan on editing the CSS file to make it stand out more and pelasing to look at in another way.
 
-## User Story
+## Built With
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
-
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+* HTML5
+* CSS
+* Javascript
 
 ## Deployed Application
 
