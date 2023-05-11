@@ -10,7 +10,7 @@ This project was created and recommended by my Bootcamp, and it was a fun projec
 
 ## Built With
 
-* HTML5
+* HTML
 * CSS
 * Javascript
 
