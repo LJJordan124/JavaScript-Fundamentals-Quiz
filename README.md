@@ -16,4 +16,4 @@ This project was created and recommended by my Bootcamp, and it was a fun projec
 
 ## Deployed Application
 
-https://ljjordan124.github.io/JavaScript-Fundamentals-Quiz/
+https://ljjordan124.github.io/JavaScript-Fundamentals-Quiz/index.html
