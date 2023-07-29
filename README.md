@@ -11,7 +11,7 @@ https://ljjordan124.github.io/JavaScript-Fundamentals-Quiz/index.html
 ## Screenshot
 The following image shows the web application's appearance and functionality:
 
-![The JavaScript Fundamentals Website webpage includes a header with a timer and link to your scoreboard, and a button underneath some text to "Start Quiz".](./Assets/JavaScript-Fundamentals-Quiz.png)
+![The JavaScript Fundamentals Website includes a header with a timer and a link to your scoreboard, and a button to "Start Quiz".](./Assets/JavaScript-Fundamentals-Quiz.png)
 
 ## Features
 This website features a header with your given time to complete the test and a button to view previous scores after completing a test. When the button "Start Quiz" has been clicked on, the timer will start going down and you are provided with a series of questions. The timer will decrease 10 seconds if an answer is wrong. If you wait long enough the quiz will end, however if you finish the quiz you are asked to enter your initials and be presented with an updated Highscores page.
