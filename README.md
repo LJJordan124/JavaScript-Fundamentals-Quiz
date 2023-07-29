@@ -2,11 +2,25 @@
 
 ## Description
 
-You are introduced to the intro-screen where you can click on two different buttons. You can view the Highscores on the top left, and it will take you to another page that will show your scores and will save those scores even if you exit the page. The other button is the Start Button, it will start the quiz and you will be presented with some JavaScript Funadmental questions. When you start the quiz, the timer on the top right will start counting down. If you wait long enough the quiz will end, however if you finish the quiz you are asked to enter your initials and be presented with an updated Highscores page.
+This project was provided as a challenge to protray how companies may provide a typical coding assessment as an interview process, and this project prepares us in looking for our own questions and answers and making it as a practice Quiz for ourselves. This project was fully built by scratch.
 
-A big challenge I had and the most difficulty was the JavaScript, however after watching a lot of videos, viewing multiple repositories, I took a lot, and learned how there was so many different ways to create a quiz that used a similar, yet different code. At the end of my journey, I came across another error that I couldn't find a solution to: my index.html couldn't recognize the href link to the highscores.html. This was only for GitHub however, and it worked perfectly fine on VS Code, so I asked a buddy of mine with some assistance in using GitHub the right way.
+## Deployed Application URL
 
-This project was created and recommended by my Bootcamp, and it was a fun project. I especially loved my experience in having multiple pages. I created this project with a means to replicate the example, practicing to create a website based on replicating what the costumer wanted. However I do plan on editing the CSS file to make it stand out more and pelasing to look at in another way.
+https://ljjordan124.github.io/JavaScript-Fundamentals-Quiz/index.html
+
+## Screenshot
+The following image shows the web application's appearance and functionality:
+
+![The JavaScript Fundamentals Website webpage includes a header with a timer and link to your scoreboard, and a button underneath some text to "Start Quiz".](./Assets/JavaScript Fundamentals Quiz.png)
+
+## Features
+This website features a header with your given time to complete the test and a button to view previous scores after completing a test. When the button "Start Quiz" has been clicked on, the timer will start going down and you are provided with a series of questions. The timer will decrease 10 seconds if an answer is wrong. If you wait long enough the quiz will end, however if you finish the quiz you are asked to enter your initials and be presented with an updated Highscores page.
+
+## Future Plans
+I do intend to go back on this project to change the aesthetic and look for my own questions I can use the study before interviews. Maybe an option before starting the quiz, you are provided with some questions that would reflect on the quiz. For example, "how many questions do you want?", (number of questions changes the timer count) "what level of difficulty?" (shorter or longer timer?).
+
+## Languages & Dependencies
+English
 
 ## Built With
 
@@ -14,6 +28,9 @@ This project was created and recommended by my Bootcamp, and it was a fun projec
 * CSS
 * Javascript
 
-## Deployed Application
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-https://ljjordan124.github.io/JavaScript-Fundamentals-Quiz/index.html
+## Questions - Contact Me
+* Email - jordan3313.lj@gmail.com
+* LinkedIn - [Laura Delaney](https://www.linkedin.com/in/laura-jordan-510412241/)
